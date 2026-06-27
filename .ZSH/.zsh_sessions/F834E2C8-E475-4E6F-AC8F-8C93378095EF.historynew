@@ -1,0 +1,5 @@
+echo $0
+ruby -v
+open .
+pycharm
+PyCharm

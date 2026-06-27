@@ -1,0 +1,333 @@
+console_title_template = '{{ .Folder }}'
+version = 4
+final_space = true
+
+[palette]
+  black = '#1B1A23'
+  black-background = '#22212C'
+  blue = '#9580FF'
+  comment-brightBlack = '#7970A9'
+  cyan = '#80FFEA'
+  green = '#8AFF80'
+  lightBlue-brightBlue = '#AA99FF'
+  lightCyan-brightCyan = '#99FFEE'
+  lightGreen-brightGreen = '#A2FF99'
+  lightMagenta-brightPurple = '#FF99CC'
+  lightRed-brightRed = '#FFAA99'
+  lightWhite-brightWhite = '#FFFFFF'
+  lightYellow-brightYellow = '#FFFF80'
+  magenta-purple = '#FF80BF'
+  purple = '#DE1F84'
+  red = '#FF9580'
+  selection-selectionBackground = '#454158'
+  white = '#FFFFFF'
+  white-cursorColor-foreground = '#F8F8F2'
+  yellow = '#FFCA80'
+
+[upgrade]
+  source = 'cdn'
+  interval = '168h'
+  auto = false
+  notice = false
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+  newline = true
+
+  [[blocks.segments]]
+    template = ' {{ if .WSL }}{{ end }}{{.Icon}}═'
+    foreground = 'cyan'
+    type = 'os'
+    style = 'diamond'
+
+    [blocks.segments.options]
+      alpine = ''
+      arch = ''
+      centos = ''
+      debian = ''
+      elementary = ''
+      fedora = ''
+      gentoo = ''
+      linux = ''
+      macos = ''
+      manjaro = ''
+      mint = ''
+      opensuse = ''
+      raspbian = ''
+      ubuntu = ''
+      windows = '󰍲'
+
+  [[blocks.segments]]
+    leading_diamond = ''
+    template = '  {{ .Name }} '
+    foreground = 'black'
+    background = 'green'
+    type = 'shell'
+    style = 'diamond'
+
+  [[blocks.segments]]
+    template = ' {{ if .SSHSession }}󰌘 {{ end }}{{ .UserName }}@{{ .HostName }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'magenta'
+    type = 'session'
+    style = 'powerline'
+
+  [[blocks.segments]]
+    template = ' 󰚲 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'lightRed'
+    type = 'angular'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      fetch_version = true
+
+  [[blocks.segments]]
+    template = ' α {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} '
+    foreground = 'white'
+    powerline_symbol = ''
+    background = 'magenta'
+    type = 'aurelia'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      fetch_version = true
+
+  [[blocks.segments]]
+    template = '  {{ .Profile }}{{ if .Region }}@{{ .Region }}{{ end }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'yellow'
+    type = 'aws'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      display_default = false
+
+  [[blocks.segments]]
+    template = ' ﴃ Subscription {{ .Name }} ({{ if .EnvironmentName | contains "AzureCloud" }}{{ "Global" }}{{ else }}{{ .EnvironmentName }}{{ end }}) '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'lightBlue'
+    type = 'az'
+    style = 'powerline'
+
+  [[blocks.segments]]
+    template = ' ﴃ {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'yellow'
+    type = 'azfunc'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      display_mode = 'files'
+      fetch_version = false
+
+  [[blocks.segments]]
+    template = ' 󰟓 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'lightCyan'
+    type = 'go'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      fetch_version = true
+
+  [[blocks.segments]]
+    template = '  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'lightCyan'
+    type = 'java'
+    style = 'powerline'
+
+  [[blocks.segments]]
+    template = '  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'lightCyan'
+    type = 'julia'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      fetch_version = true
+
+  [[blocks.segments]]
+    template = ' 󰠳 {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'lightYellow'
+    type = 'kubectl'
+    style = 'powerline'
+
+  [[blocks.segments]]
+    template = ' 󰎙 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'lightGreen'
+    type = 'node'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      fetch_version = true
+
+  [[blocks.segments]]
+    template = '  {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'lightCyan'
+    type = 'php'
+    style = 'powerline'
+
+  [[blocks.segments]]
+    template = ' {{ if .Error }}{{ .Error }}{{ else }}{{ if .Version }} {{.Version}}{{ end }} {{ if .Name }}{{ .Name }}{{ end }}{{ end }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'lightYellow'
+    type = 'project'
+    style = 'powerline'
+
+  [[blocks.segments]]
+    template = '  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'lightYellow'
+    type = 'python'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      display_mode = 'files'
+      fetch_virtual_env = false
+
+  [[blocks.segments]]
+    template = '  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'red'
+    type = 'ruby'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      display_mode = 'files'
+      fetch_version = true
+
+  [[blocks.segments]]
+    template = '  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'lightRed'
+    type = 'rust'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      display_mode = 'files'
+      fetch_version = true
+
+  [[blocks.segments]]
+    template = '  {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'blue'
+    type = 'swift'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      display_mode = 'files'
+      fetch_version = true
+
+  [[blocks.segments]]
+    template = ' {{ .CurrentDate | date .Format }} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'yellow'
+    type = 'time'
+    style = 'powerline'
+
+    [blocks.segments.options]
+      time_format = 'Mon | 15:04:05'
+
+  [[blocks.segments]]
+    trailing_diamond = ''
+    template = ' {{ .FormattedMs }} '
+    foreground = 'black'
+    background = 'cyan'
+    type = 'executiontime'
+    style = 'diamond'
+
+    [blocks.segments.options]
+      style = 'austin'
+      threshold = 0
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'right'
+
+  [[blocks.segments]]
+    leading_diamond = ''
+    trailing_diamond = ''
+    template = '{{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} 󰆓 {{ .StashCount }}{{ end }}'
+    foreground = 'black'
+    background = 'magenta'
+    type = 'git'
+    style = 'diamond'
+
+    [blocks.segments.options]
+      branch_icon = ' '
+      fetch_status = true
+      fetch_upstream_icon = true
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+  newline = true
+
+  [[blocks.segments]]
+    template = ' ╚'
+    foreground = 'cyan'
+    type = 'text'
+    style = 'plain'
+
+  [[blocks.segments]]
+    leading_diamond = ''
+    template = ' {{ if gt .Code 0 }}󰋔 {{ else }} {{ end }}{{ if eq ( gt .Code 0 ) .Segments.Path.Writable}} {{ end }}'
+    foreground = 'black'
+    background = 'blue'
+    type = 'status'
+    style = 'diamond'
+    background_templates = ['{{ if gt .Code 0 }}red{{ end }}']
+
+    [blocks.segments.options]
+      always_enabled = true
+
+  [[blocks.segments]]
+    template = '{{ if eq ( gt .Code 0 ) .Writable }} {{ end }} {{ .Path }}{{ if not .Writable  }} 󰍁 {{ end }}{{ if and .Writable .Root }} {{end}} '
+    foreground = 'black'
+    powerline_symbol = ''
+    background = 'blue'
+    type = 'path'
+    style = 'powerline'
+    background_templates = ['{{ if not .Writable }}red{{ end }}']
+
+    [blocks.segments.options]
+      folder_icon = ''
+      folder_separator_icon = ' 󰁕 '
+      home_icon = '󰋜'
+      max_depth = 3
+      style = 'agnoster_short'
+
+  [[blocks.segments]]
+    trailing_diamond = ''
+    template = '{{ if not .Root }}⠀{{ end }}{{ if and .Root ( not .Segments.Path.Writable ) }} {{ end }}{{ if and .Root .Segments.Path.Writable }}  {{ end }}'
+    foreground = 'white'
+    background = 'blue'
+    type = 'text'
+    style = 'diamond'
+    background_templates = ['{{ if and .Segments.Path.Writable (not .Root) }}{{ else }}red{{ end }}']
+
+    [blocks.segments.options]
+      root_icon = ''

@@ -1,0 +1,447 @@
+cd
+ls
+exit
+ruby -v
+python -v
+bash
+ls
+cd Documents
+ls
+cd ../
+ls
+cd Documents
+cd ../
+ls
+cd downloads
+ls
+exit
+ruby -v
+rails -v
+exit
+ls
+cd documents
+ls
+mkdir XcodeProjects
+ls
+cd xcodeProjects
+ls
+exit
+ruby -v
+c++ -v
+c -v
+java - v
+java -v
+gcc -v
+exit
+vim
+ls
+esc
+exit
+ls
+exit
+exit
+exit
+ruyb -v
+ruby -v
+brew -v
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew -v
+echo >> /Users/success4aaron/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/success4aaron/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+brew help
+man brew
+brew -v
+exit
+export HOMEBREW_NO_ANALYTICS=1
+brew analytics off
+exit
+python -v
+ls
+cd Library
+ls
+homebrew
+cd ../
+ls
+cd Public
+ls
+cd ../
+cd applications
+ls
+cd apps.localized
+cd Apps.localized
+cd
+ls
+brew
+brew info
+brew list
+brew config
+cd /opt/homebrew
+ls
+READ.ME
+READ.MD
+READ.md
+vim READ.md
+vim README.md
+open .
+open .
+open.
+open .
+exit
+brew --prefix
+brew doctor
+brew -v
+exit
+brew list
+brew list 
+brew list ls
+man brew list
+man brew list
+man brew
+ls
+echo $PATH
+java
+Java
+java -v
+Java -v
+jdk
+brew install openjdk
+echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+openjdk
+java -v
+brew --cache
+java -version
+echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc
+$PATH
+echo $PATH
+d $PATH
+cd $PATH
+ls
+$PATH .
+echo $PATH .
+ls
+java -version
+java
+jshell
+jshell
+python --version
+python -version
+python -v
+brew install python
+python
+python3
+python3
+exit
+ls
+cd downloads
+brew --cellar
+cd brew --cellar
+brew list
+brew install ruby
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"\
+  export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+gcc -v
+clang++ --version
+brew install gcc
+gcc -v
+ls
+brew leaves
+exit
+env
+$PATh
+ls
+curl
+man curl
+cd brew --prefix
+cd brew info
+cd brew
+ls
+brew help
+cd brew config
+brew config
+cd /opt/homebrew
+ls
+open .
+exit
+brew leaves
+.zshrc
+~/.zshrc
+vim ~/.zshrc
+c++
+gcc
+java
+jshell
+exit
+ls
+cd documents
+ls
+cd programming
+ls
+cd "PyCharm Projects"
+ls
+open .
+exit
+pip install -r ~./requirements.txt
+cd jetbrains://pycharm/navigate/reference?project=CompEClub_Projects&path=DIscordBot%20-%20PostBan-ner%20-%20Solution%20Code
+ls
+cd documents/programming/pycharmprojects
+ls
+pycharm .
+charm .
+exit
+xcode-select --install
+xcode-select -p
+brew --prefix
+zed ~/.zshrc
+ source ~/.zshrc
+openssl -v
+libyaml -v
+ gmp -v
+rust -v
+exit
+brew install mise
+mise use -g ruby
+ruby -v
+brew leaves
+mise leaves
+brew install openssl libyaml gmp rust
+brew leaves
+openssl
+openssl -v
+libyaml -v
+gmp -v
+exit
+mise -v
+brew
+brew uninstall
+brew list
+brew uninstall ruby
+brew list
+vim ~/.zshrc
+echo 'eval "$(~/.local/bin/mise activate)"' >> ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+mise
+mise -v
+mise use -g ruby
+ruby -v
+exit
+ls
+pip install -r requirements.txt
+pip3 install -r requirements.txt
+ls
+brew leaves
+mise
+mise use -g ruby
+ruby -v
+mise global ruby@4.0.5
+~/.config/mise/config.toml
+vim ~/.config/mise/config.toml
+mise use ruby@4.0.5
+ruby -v
+man which
+mise which ruby
+cd $(mise which ruby)
+which $(ruby -v)
+cd /.local
+cd ~/.local
+ls
+cd state
+ls
+cd ../
+cd share
+;s
+ls
+cd mise
+ls
+cd installs
+ls
+cd ../../
+ls
+cd ../
+ls | cd state
+ls
+cd mise
+ls
+cd /usr/bin/
+ls
+echo $0
+clera
+clear
+brew leaves
+mise which ruby
+echo $PATH
+clear
+cd /usr/bin
+ls
+open .
+cd
+ls
+cd /usr
+ls
+open .
+/bin/ruby
+cd /bin
+ls
+cd ../
+ls
+cd /usr/bin
+ls
+ruby
+irb
+ruby -v
+cd /mise
+which mise
+cd $(which mise)
+mise which ruby
+cd
+cd .local/share/mise/installs/
+ls
+cd ruby
+ls
+cd ../
+ls
+ruby
+ruby -v
+open .
+ls
+cd
+vim ~/.zshrc
+mise which ruby
+vim ~/.zshrc
+ls
+ruby -v
+vim ~/.zshrc
+source ~/.zshrc
+which mise
+vim ~/.zshrc
+source ~/.zshrc
+vim ~/.zshrc
+source ~/.zshrc
+ruby -
+ruby -v
+mise list
+brew list
+which -a ruby
+which -a ruby
+mise which ruby
+mise which -a ruby
+mise which ruby
+mise list ruby
+mise uninstall ruby
+mise list
+mise unuse -g ruby
+mise list
+mise uninstall ruby
+ls
+mise which
+which mise
+brew uninstall mise
+which mise
+cd ~/.local/share/mise
+ls
+cd ../
+ls
+cd
+rm -rf ~/.local/share/mise
+rm -rf ~/.cache/mise
+rm -rf ~/.config/mise
+cd ~/.local
+ls
+cd share
+ls
+cd ../ $(cd state)
+ls $(cd state)
+cd state
+ls
+cd mise
+cd ../
+ls
+rm -rf ~/mise
+ls
+rm -rf mise
+ls
+open .
+cd
+which mis
+which mise
+brew list
+brew list | grep mise
+grep mie
+grep mise
+ls
+clear
+vim ~/.zshrc
+openjdk
+openjdk -v
+vim ~/.zshrc
+python -v
+python3 -v
+clear
+python -v
+python -version
+python3 -version
+python3 -v
+clear
+brew leaves
+xcode-select -v
+brew which
+which brew
+cd /opt/homebrew/bin
+ls
+cd
+brew install pyton
+ls
+brew leaves
+brew list
+brew install python
+python3 -v
+python -v
+python3
+python
+python3
+brew leaves
+brew list | grep python
+brew info python
+brew info openjdk
+echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+brew infor gcc
+brew info gcc
+brew info rust
+ls
+brew leaves
+vim ~/.zshrc
+openjdk
+openjdk -v
+which openjdk
+openjdk
+vim ~/.zshrc
+brew info openjdk
+exit
+brew info brew
+brew
+which brew
+cd /opt/homebrew
+ls
+vim README.md
+ls
+ls
+exit
+ls
+ls -a
+ls -al
+cd config
+cd .config
+ls
+cd jgit
+ls
+cd config
+ls
+vim config
+cd
+ls
+ls -al
+exit

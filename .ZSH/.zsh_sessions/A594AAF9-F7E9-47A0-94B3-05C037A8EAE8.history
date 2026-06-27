@@ -1,0 +1,1001 @@
+ls
+lsa
+z
+nvim .zshrc
+lsa
+source .zshrc
+z dosc
+z doc
+nvim .zshrc
+z
+nvim .zshrc
+source .zshrc
+nvim .zshrc
+source .zshrc
+nvim .zshrc
+source .zshrc
+l
+clear
+z dot
+z configs
+z gho
+z ..
+lsa
+z ..
+lsa
+z application\ support
+lsa
+z com.mitchellh.ghostty
+lsa
+nvim config.ghostty
+z
+clear
+ghostty +edit-config
+clear
+nvim .zprofile
+ghostty +edit-config
+nvim .zprofile
+ghostty +edit-config
+nvim .zprofile
+nvim .zprofile
+source .zprofile
+ghostty +edit-config
+z ..
+lsa
+z .localized
+z
+z Users/Posh
+z
+clear
+oh-my-posh
+clear
+lsa
+z dot
+z configs
+lsa
+z .config
+lsa
+mkdir ohmyposh
+lsa
+z ohmyposh
+ghostty +list-themes
+z ../ghostty
+lsa
+nvim config.ghostty
+yazi
+sfi
+nvim config.ghostty
+clear
+z ../oh
+z ..
+z oh
+lsa
+oh-my-posh config export --output ./base.json
+exec zsh
+lsa
+nvim base.json
+nvim base.json
+clear
+oh-my-posh config export \\
+--format toml --output ~/.config/ohmyposh/zen.toml
+lsa
+zen.toml
+nvim zen.toml
+z
+nvim .zshrc
+exec zsh
+nvim .zshrc
+z dot conf .config ohmy
+ls
+nvim base.json
+nvim zen.toml
+clear
+source .zshrc
+ls
+nvim .zshrc
+lal
+source .zshrc
+lal
+lsa
+lsl
+z down
+z
+z downloads
+lal
+open .
+clear
+exi
+exit
+l
+nvim
+emacs
+nano
+brew leaves
+lsa
+cd dotfiles
+lsa
+cd configs
+lsa
+cd .config
+lsa
+cd ghostty
+lsa
+nvim config.ghostty
+clear
+source .zshrc
+cd
+z
+source .zshrc
+nvim config.ghostty
+z dot config .config 
+lsa
+z ghos
+lsa
+nvim config.ghostty
+nvim config.ghostty
+z ../ohmyposh
+lsa
+cat zen.toml
+cat base.json
+clear
+source .zshrc
+z
+source .zshrc
+brew --help
+brew doctor
+brew help update
+brew help upgrade
+brew update
+brew upgrade
+z
+clear
+ls
+clear
+source.zshrc
+source .zshrc
+lear
+clear
+z dot conf .config ghsotty
+z dot conf .config gh
+lsa
+nvim config.ghostty
+z dot conf .config gh
+nvim config.ghostty
+sdiha
+z dot conf .config gh
+nvim config.ghostty
+z dot conf .config gh
+nvim config.ghostty
+z dot conf .config gh
+nvim config.ghostty
+z dot conf .config gh
+nvim config.ghostty
+z dot conf .config gh
+nvim config.ghostty
+nvim config.ghostty
+z dot conf .config gh
+nvim config.ghostty
+z dot conf .config gh
+nvim config.ghostty
+clear
+source .zshrc
+nvim config.ghostty
+z
+source .zshrce
+source .zshrc
+nvim .zshrc
+source .zshrc
+sZ
+nZ
+source .zshrc
+sz
+clear
+sz
+nz
+	nz
+ghostty +edit-config
+nz
+sz
+ghostty +edit-config
+cler
+clear
+nz
+sz
+clear
+nvim .zprofile
+ghostty +edit-config
+nvim --help
+clear
+nvim .zprofile
+source .zprofile
+ghostty +edit-config
+ghostty +help
+ghostty +show-config
+clear
+ghostty +edit-config
+nz
+sz
+adiufbaifvblaufv ahdiuvhiaudvau
+clear
+divhsidvs;df d hvusdhfv osdh fvosdhv oadh vouahi
+clear
+z doc
+z
+nz
+sz
+clear
+z doc
+sz
+z
+nz
+nz
+neovim .zshrc
+nvim .zshrc
+nvim .zshrc
+nvim .zshrc
+nvim .zshrc
+z ~/.local/state/nvim/swap/%Users%success4aaron%dotfiles%ZSH%.zshrc.swp
+z ~/.local/state/nvim/swap/
+lsa
+nvim %Users%success4aaron%dotfiles%ZSH%.zshrc.swp
+z
+nvim .zshrc
+nvim .zshrc
+source .zshrc
+nvim .zshrc
+source .zshrc
+sz
+nz
+sz
+clear
+sz
+clear
+nz
+z doc
+clear
+sz
+z
+sz
+cat .zsh_history
+fastfetch
+clear
+fastfetch
+clear
+exit
+obsidian
+clear
+ lal
+z dot confi .config ohmy
+lsa
+lsl
+lal
+man cp
+cp zen.toml custom.toml
+lsa
+nvim zen.toml
+open .
+lsa
+z
+lcear
+clear
+sz
+clear
+sz
+clear | sz
+sz | clear
+clear | sz
+clear
+sz
+lal
+z doc
+z pro
+mkdir GodotProjects
+lsa
+clear
+ls
+z godotprojects
+z
+ls
+z
+clear
+nz
+sz
+clear
+z
+z doc
+lsa
+z
+z dotfiles
+mkdir .ssh
+lsa
+z .ssh
+lsa
+clear
+ssh-keygen -t ed25519
+z
+lsa
+clear
+ssh-keygen -t ed25519
+z
+lsa
+z .ssh
+lsa
+z
+lsa
+rm -r .ssh
+lsa
+open .
+lsa
+chflags hidden ~/dotfiles
+lsa
+ls
+lal
+sz
+lsa
+lsa
+ls
+z
+chflags nohidden dotfiles
+lsa
+lsa
+open .
+lsa
+mv dotfiles .dotfiles
+lsa
+open .
+sz
+lal
+z .dotfiles
+z conf
+lsa
+z
+z .dot
+z configs
+lsa
+z
+z .do
+lsa
+mv configs .configs
+mv backups .backups
+mv homebrew .homebrew
+mv ZSH .ZSH
+lsa
+stow .configs
+z
+lsa
+sz
+exit
+lsa
+ls
+ls -a
+ls -la
+z
+cd .dotfiles
+ls -al
+stow -D .
+ls -al
+cd
+zd .dotfiles
+cd .dotfiles
+stow .ZSH
+cd
+ls -al
+stow -D .
+ls -al
+cd .dotfiles
+ls -al
+stow -D .
+stow .ZSH
+source .zshrc
+stow _D .
+stow -D .
+ls -al
+unlink --help
+unlink .zshrc
+ls -al
+cd .dotfiles
+ls -a
+cd .ZSH
+ls -a
+nvim .zshrc
+cd
+unlink .confg .homebrew .zprofile .zsh_sessions
+ls -a
+cd .dotfiles
+ls -a
+stow .configs
+ls -al
+unlink .zsh_sessions
+ls -al
+unlink .zprofile
+ls -al
+unlink .homebrew
+ls -al
+unlink .config
+ls -al
+cd .dotfile
+cd .dotfiles
+ls -al
+stow .configs
+cd
+ls -al
+cd .dotfiles
+ls -al
+stow .ZSH
+stow .ssh
+stow .homebrew
+stow .backups
+cd
+ls -al
+source .zsh
+source .zshrc
+ls
+lsa
+lsl
+clear
+z .dot
+lsa
+z .configs
+lsa
+z .conf
+z ohmyposh
+cat zen.toml
+z
+z .dot
+lsa
+z .ZSH
+lsa
+cat .zshrc
+nvim .zshrc
+sz
+clear
+nvim .zshrc
+cl
+sz
+cl
+z
+clear
+lal
+z .dot
+lsa
+stow .ssh
+z
+lsa
+lal
+clear
+sz
+lal
+cat .zprofile
+clear
+lal
+z .do
+lsa
+z .ssh
+z
+z .dot
+lsa
+rm -r .ssh
+las
+lsa
+a
+z
+grep .ssh
+fzf
+cl
+tree -help
+tree --help
+clear
+ssh-keygen -t ed25519
+clear
+lal
+ls .ssh
+rm -r .ssh
+lal
+cl
+ssh-keygen -t ed25519
+la
+lal
+z .ssh
+lal
+cat id_ed25519
+cat id_ed25519.pub
+z
+lal
+z .ssh
+cl
+ls -al .ssh
+z
+ls -al .ssh
+brew leaves
+gh --help
+gh status
+gh auth login
+clear
+gh status
+gh auth login
+gh ssh-key
+clear
+gh auth login
+gh status
+cl
+gh status
+gh auth login
+clear
+gh status
+gh --help
+gh auth
+gh auth status
+cl
+lal
+z .dot
+z
+z .sh
+z .s
+nvim id_ed25519.pub
+cat id_ed25519.pub
+pbcopy < ~/.ssh/id_ed25519.pub
+cle
+cl
+ssh -T git@github.com
+z
+nvim .zshrc
+nvim config.ghostty
+z .dot .conf conf ghostty
+z .dot .configs conf ghostty
+z .dot .configs conf 
+z .dot 
+lsa
+z .configs
+lsa
+z .config
+lsa
+z gh
+cat config.yml
+z ..
+ls git
+ls ghostty
+ls ghostty | nvim config.ghostty
+lsa
+z ghostty
+lsa
+nvim config.ghostty
+clear
+z
+clear
+ghostty +edit-config
+clear
+gh status
+gh auth --help
+gh auth token
+clear
+ls .ssh | cat
+ls .ssh
+z .ssh
+cat agent
+ls agent
+lal
+cat known_hosts
+cat known_hosts.old
+cat id_ed25519.pub
+lar
+cl
+sz
+sz
+z
+sz
+clear
+sz
+exit
+git --v
+git -v
+gh status
+clear
+clear
+cl
+sz
+z
+sz
+gh status
+gh auth --help
+gh auth refresh
+gh status
+gh status --help
+ssh -T git@github.com
+ssh --help
+ssh -T GITHUB-USERNAME@github.com
+ssh -T git@github.com
+ssh -vT git@github.com
+cl
+ls -l | wc -l
+z
+lal
+ls -al | wc -l
+ls -al | wc -al
+man wc
+nz
+z
+z dpc
+z doc
+sz
+z
+sz
+z
+z
+nz
+sz
+clear
+z
+free -g
+z
+free
+ps
+sz
+cl
+oh-my-posh
+cl
+z doc
+clear
+z
+sz
+nz
+sz
+clear
+omp
+z | z .dot .configs .config ohmy
+z | z .dot .configs .config 
+z oh
+ls
+z ..
+z ..
+z .dot .configs .config ohmyposh
+z .dot .configs .config 
+z ohmyposh
+lsa
+nvim di4am0nd.json
+ls
+z | nz
+ls
+z
+nz
+sz
+clear
+z
+z doc
+clear
+sz
+z
+sz
+z .dot .confi .confi ohmy
+nvim devious_diamonds.yaml
+ls
+z
+nz
+s
+sz
+z ohmyposh
+nvim hunk.json
+z
+nz
+sz
+clear
+sz
+z ohmy
+nvim if_tea
+ls
+nvim if_tea.json
+ls
+z
+nz
+sz
+z ohmy
+ls
+nvim easy_term.json
+ls
+z
+nz
+z
+nz
+sz
+z ohmy
+rm easy_term.json
+ls
+z
+sz
+nz
+z
+sz
+z ohmy
+c
+nvim craver.json
+nvim craver.json
+z
+nz
+sz
+nz
+sz
+clear
+sz
+cle
+what
+wh
+z doc
+z
+clear
+z oh
+nvim 1_shell.json
+ls
+z
+nz
+sz
+clear
+hdfvbsof
+z
+clear
+sz
+z ohm
+ls
+nvim kali.json
+nvim velvet.json
+nvim wholespace.json
+z
+clear
+nz
+sz
+clear
+z
+nz
+sz
+clear
+sz
+z doc
+nz
+z
+nz
+clear
+sz
+clear
+sz
+cclear
+z
+cl
+exit
+z
+cat note
+sz
+z
+sz
+sz
+sz
+sz
+z doc
+clear
+gh status
+gh auth --help
+gh auth status
+gh auth token
+gh auth login
+clar
+cl
+gh auth --help
+gh auth logout
+clear
+gh status
+env
+printenv
+cleara
+cl
+gh status
+cl
+gh auth login
+ls .ssh
+z
+z .sh
+z .s
+ls
+cat id_ed25519.pub
+cat id_ed25519
+clear
+gh auth login
+cat id_ed25519.pub
+clear
+cat id_ed25519.pub
+clear
+z
+gh auth login
+clear
+gh status
+gh auth status
+gh status token
+clear
+gh auth token
+clear
+gh auth logout
+clear
+gh auth login
+clear
+z
+z ohmy
+cat ~/.zshrc
+clear
+ls
+nvim wholespace.json
+sz
+z
+sz
+z
+nvim note
+nvim note
+clear
+cat note
+z ohm
+nvim wholespace.json
+z
+sz
+z ohm
+cat wholespace.json
+z
+nz
+sz
+z omp
+z ohm
+nvim wholespace
+nvim wholespace.json
+ls
+rm wholespace.json
+ls
+nvim wholespace.json
+z
+sz
+clear
+ghotty +edit-config
+ghostty +edit-config
+clear
+z
+clear
+sz
+ghostty +edit-config
+z ohm
+clear
+ls
+nvim wholespace.json
+z
+sz
+clear
+z ohmy
+nvim wholespace.json
+z
+sz
+z ohmy
+nvim wholespace.json
+nvim wholespace.json
+nvim wholespace.json
+nvim wholespace.json
+nvim wholespace.json
+z
+sz
+nvim wholespace.json
+z ohm
+nvim wholespace.json
+z
+sz
+z ohm
+nvim wholespace.json
+z
+sz
+clear
+ssh -vT git@gihub.com
+ssh -T git@gihub.com
+ssh -T git@github.com
+clear
+clear
+git --help
+z
+z doc
+z prog
+z godot
+lsa
+clear
+git clone git@github.com:AaronAlpha/YouFastEnough_Godot.git
+lsa
+z YouFastEnough_Godot
+z ..
+gh status
+gh status --help
+clear
+z you
+gh status
+clear
+z
+z youfast
+z scripts
+z
+godot.app
+clear
+fzf
+fzf
+ls
+z applications
+lsa
+z
+z ..
+z ..
+z ..
+lsa
+lal
+z
+clar
+cl
+z doc pro god
+lsa
+z you
+open .
+z
+mv note note.txt
+lsa
+z
+cat note.txt
+git remote -v
+z you
+git remote -v
+clear
+git log --graph --decorate --oneline
+clear
+cat .zshrc
+cl
+sz
+clear
+oh-my-posh
+omp shell
+omp --shell
+omp -s
+clear
+nz
+ch
+cH
+nvim myHelp.txt
+ls
+rm note.txt
+ls
+mv myHelp.txt myHelp.md
+ls
+nvim myHelp.md
+cl
+sz
+clear
+sz
+nz
+cl
+sz
+ch
+nz
+cl
+sz
+nz
+cl
+ch
+nz
+cl
+sz
+z doc
+nz
+z
+nz
+cl
+sz
+z
+nz
+cl
+z
+ch
+brew leaves
+fd --help
+onefetch
+z youfas
+onefetch
+cl
+z
+cl
+z youf
+onefetch
+clear
+exit

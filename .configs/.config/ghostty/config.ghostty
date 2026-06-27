@@ -1,0 +1,50 @@
+# THEMES and BACKGROUND
+# theme = Snazzy
+# theme = Ayu Light
+# theme = Dot Gov 
+# theme = Dark Modern
+# theme = Cyberpunk Scarlet Protocol - red
+# theme = Dracula
+# theme = Flexki Dark
+# theme = Gruvbox Material
+theme = Horizon
+# theme = Horizon Bright
+# theme = HaXOR R3D
+
+# background = #ffb7c5 
+
+background-opacity = 0.81
+
+# background-blur = 90 
+# blurs the background of the terminal - not useful when coupled with background-opacity
+
+
+
+# WINDOW
+# window-padding-x = 10 
+# amount of spacing from the sides to the actual text display
+
+# window-padding-y = 10 
+# amound of spacing from the top and bottom to the actual text display
+
+# window-decoration = true 
+# ?
+
+# adjust-cell-height = 35%
+# adjusting the spacing between lines
+
+
+# CURSOR
+# cursor-style = block 
+# ?
+
+# macos-titlebar-style = transparent 
+# ?
+
+
+
+
+# FONT and FONT SIZES
+font-family = CaskaydiaCove NF
+font-size = 18
+

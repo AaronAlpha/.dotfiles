@@ -1,0 +1,35 @@
+cd
+ls
+exit
+ruby -v
+python -v
+bash
+ls
+cd Documents
+ls
+cd ../
+ls
+cd Documents
+cd ../
+ls
+cd downloads
+ls
+exit
+ruby -v
+rails -v
+exit
+ls
+cd documents
+ls
+mkdir XcodeProjects
+ls
+cd xcodeProjects
+ls
+exit
+ruby -v
+c++ -v
+c -v
+java - v
+java -v
+gcc -v
+exit
