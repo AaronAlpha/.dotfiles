@@ -28,8 +28,11 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}" # used in tandem with th
 # fzf shell integration - to activate --> crtl+R
 eval "$(fzf --zsh)"
 
-
 # end
+
+
+source $HOMEBREW_PREFIX/share/zsh-you-should-use/you-should-use.plugin.zsh # activating 'zsh-you-should-use'
+
 
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
@@ -55,6 +58,7 @@ alias ch='cat myHelp.md'
 
 alias tree='tree -C' # note - tree -a -d --> prints out hidden files (-a) and directories-only (-d)
 
+alias bat='bat --color=always' # always shows color; -A = printing non-printable chars (like tabs) --> colors don't work properly tho with -A
 
 # 10 Zsh hacks I wish I knew about sooner - Dreams of Code (yt vid)
 # to enter an in-line buffer to edit a command with a mistake
