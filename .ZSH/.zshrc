@@ -14,7 +14,7 @@ source "${ZINIT_HOME}/zinit.zsh"
 # zinit-zsh plug-ins
 zinit light zsh-users/zsh-syntax-highlighting # syntax highlighting
 zinit light zsh-users/zsh-completions # autocomplete
-
+zinit light zsh-users/zsh-autosuggestions # autosuggestions
 
 # for zsh-autocomplete, need extra line
 autoload -U compinit && compinit # telling zsh to auto load completions whenever it starts
