@@ -11,14 +11,25 @@ ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 [ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 source "${ZINIT_HOME}/zinit.zsh"
 
+# all from Dreams of Autonomy - "This Zsh config is perhaps my favorite one yet"
 # zinit-zsh plug-ins
 zinit light zsh-users/zsh-syntax-highlighting # syntax highlighting
 zinit light zsh-users/zsh-completions # autocomplete
-zinit light zsh-users/zsh-autosuggestions # autosuggestions
+
 
 # for zsh-autocomplete, need extra line
 autoload -U compinit && compinit # telling zsh to auto load completions whenever it starts
 
+# completion style - enables non-case-sensitive matching for completion 
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}" # used in tandem with the alias for ls='ls --color'; to specify colors for files and dir
+
+
+# fzf shell integration - to activate --> crtl+R
+eval "$(fzf --zsh)"
+
+
+# end
 
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
@@ -29,6 +40,7 @@ fastfetch # to call the fastfetch command
 
 # alias-es
 alias cl='clear'
+alias ls='ls --color' # provides color to the files and directories (diff colors)
 alias lsl='ls -l'
 alias lsa='ls -a'
 alias lal='ls -l -a'
@@ -40,6 +52,8 @@ alias nzp='nvim .zprofile' # editting the .zprofile file (env vars)
 alias omp='oh-my-posh'
 
 alias ch='cat myHelp.md'
+
+alias tree='tree -C' # note - tree -a -d --> prints out hidden files (-a) and directories-only (-d)
 
 
 # 10 Zsh hacks I wish I knew about sooner - Dreams of Code (yt vid)
