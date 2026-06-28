@@ -12,7 +12,13 @@ ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 source "${ZINIT_HOME}/zinit.zsh"
 
 # zinit-zsh plug-ins
-zinit light zsh-users/zsh-syntax-highlighting
+zinit light zsh-users/zsh-syntax-highlighting # syntax highlighting
+zinit light zsh-users/zsh-completions # autocomplete
+
+
+# for zsh-autocomplete, need extra line
+autoload -U compinit && compinit # telling zsh to auto load completions whenever it starts
+
 
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
