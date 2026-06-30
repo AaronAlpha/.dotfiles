@@ -39,7 +39,11 @@ if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
   eval "$(oh-my-posh init zsh --config ~/.dotfiles/.configs/.config/ohmyposh/wholespace.json)"
 fi
 
+
+# code for when "source .zshrc"; or starting a new ghostty session
 fastfetch # to call the fastfetch command
+ls
+# it will fastfetch, and then list the current (home) dir
 
 # alias-es
 alias cl='clear'
