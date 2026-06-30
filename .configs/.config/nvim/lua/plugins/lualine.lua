@@ -10,7 +10,14 @@ return {
           theme = 'horizon' -- 'normal' mode is in pinkish-red
           
           -- theme = 'cosmicink'
-        }
+        }, 
+        
+        sections = {
+		      lualine_x = { "encoding", { "fileformat", symbols = { unix = "" } }, "filetype" },
+	      },
+
+
+
       })
 
     end
