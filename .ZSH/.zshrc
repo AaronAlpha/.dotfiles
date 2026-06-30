@@ -45,18 +45,18 @@ fastfetch # to call the fastfetch command
 alias cl='clear'
 
 # for regular "ls"
-alias ls='ls --color' # provides color to the files and directories (diff colors)
-alias lsl='ls -l'
-alias lsa='ls -a'
-alias lal='ls -l -a'
+# alias ls='ls --color' # provides color to the files and directories (diff colors)
+# alias lsl='ls -l'
+# alias lsa='ls -a'
+# alias lal='ls -l -a'
 
 # for use of "new" ls = ez
-alias eza='eza --icons --git --color --tree -L=1'
-alias ezaa='eza --icons --git --color --tree -L=1 -a' # showing hidden files/folders
-alias ezal='eza --icons --git --color --tree -L=1 -l'
-alias ezala='eza --icons --git --color --tree -L=1 -l -a'
+alias ls='eza --icons --git --color --tree -L=1'
+alias lsa='eza --icons --git --color --tree -L=1 -a' # showing hidden files/folders
+alias lsl='eza --icons --git --color --tree -L=1 -l'
+alias lal='eza --icons --git --color --tree -L=1 -l -a'
 
-alias ezat='eza --icons --tree' # for full Tree effect (dangerous - recurses crazy)
+alias lst='eza --icons --tree' # for full Tree effect (dangerous - recurses crazy)
 
 
 # 
@@ -103,8 +103,7 @@ chpwd() {
 		#echo "works"
 #	fi 
 	
-	# ls # now using eza
-	eza
+	ls
 	
 
 }
