@@ -34,16 +34,10 @@ eval "$(fzf --zsh)"
 source $HOMEBREW_PREFIX/share/zsh-you-should-use/you-should-use.plugin.zsh # activating 'zsh-you-should-use'
 
 
-
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
   eval "$(oh-my-posh init zsh --config ~/.dotfiles/.configs/.config/ohmyposh/wholespace.json)"
 fi
 
-
-# code for when "source .zshrc"; or starting a new ghostty session
-fastfetch # to call the fastfetch command
-ls
-# it will fastfetch, and then list the current (home) dir
 
 # alias-es
 alias cl='clear'
@@ -81,6 +75,13 @@ alias bat='bat --color=always' # always shows color; -A = printing non-printable
 autoload -Uz edit-command-line
 zle -N edit-command-line
 bindkey '^x^e' edit-command-line
+
+
+# code for when "source .zshrc"; or starting a new ghostty session
+fastfetch # to call the fastfetch command
+ls
+# it will fastfetch, and then list the current (home) dir
+
 
 
 # chpwd (what happens whan you "change into a new directory"

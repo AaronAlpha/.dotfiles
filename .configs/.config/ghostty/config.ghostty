@@ -3,7 +3,7 @@
 # theme = Ayu Light
 # theme = Dot Gov 
 # theme = Dark Modern
-# theme = Cyberpunk Scarlet Protocol - red
+# theme = Cyberpunk Scarlet Protocol
 # theme = Dracula
 # theme = Flexki Dark
 # theme = Gruvbox Material
@@ -13,7 +13,8 @@ theme = Horizon
 
 # background = #ffb7c5 
 
-background-opacity = 0.81
+background-opacity = 0.81 
+
 
 # background-blur = 90 
 # blurs the background of the terminal - not useful when coupled with background-opacity
