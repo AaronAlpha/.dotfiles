@@ -43,19 +43,23 @@ fi
 alias cl='clear'
 
 # for regular "ls"
-# alias ls='ls --color' # provides color to the files and directories (diff colors)
-# alias lsl='ls -l'
-# alias lsa='ls -a'
-# alias lal='ls -l -a'
+alias ls='ls --color' # provides color to the files and directories (diff colors)
+alias lsl='ls -l'
+alias lsa='ls -a'
+alias lal='ls -l -a'
 
 # for use of "new" ls = ez
-alias ls='eza --icons --git --color --tree -L=1'
-alias lsa='eza --icons --git --color --tree -L=1 -a' # showing hidden files/folders
-alias lsl='eza --icons --git --color --tree -L=1 -l'
-alias lal='eza --icons --git --color --tree -L=1 -l -a'
+alias lz='eza --icons --git --color --tree -L=1'
+alias lza='eza --icons --git --color --tree -L=1 -a' # showing hidden files/folders
+alias lzl='eza --icons --git --color --tree -L=1 -l'
+alias lzl='eza --icons --git --color --tree -L=1 -l -a'
+alias lzt='eza --icons --tree' # for full Tree effect (dangerous - recurses crazy)
 
-alias lst='eza --icons --tree' # for full Tree effect (dangerous - recurses crazy)
+# for use of "new" cd = z
+alias cz='z'
 
+# for use of "new" cat = bat
+alias catb='bat'
 
 # 
 alias nz='nvim .zshrc' # editting .zshrc
