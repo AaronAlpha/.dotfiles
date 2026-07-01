@@ -19,7 +19,22 @@ return {
 			-- Neo-tree config
 			require('neo-tree').setup({
 				-- options go here
-			})
+        
+        -- following is to allow for hidden files to be shown; "shift+h" (H) allows to toggle the hidden files off
+        filesystem = {
+          filtered_items = {
+            visible = true, -- This is what you want: If you set this to `true`, all "hide" just mean "dimmed out"
+            hide_dotfiles = false,
+            hide_gitignored = true,
+          }, -- filtered items
+        } -- filesystem
+        
+        , -- comma
+
+
+      }) --require.setup
+
+
 			vim.keymap.set('n', '<leader>o', ':Neotree filesystem reveal left<CR>', {}) -- changed '<leader>n' to '<C-n>' 
 
 		end
